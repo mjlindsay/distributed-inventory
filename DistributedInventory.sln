@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedInventory.Domain", "DistributedInventory.Domain\DistributedInventory.Domain.csproj", "{5C1B04C8-8AD4-4140-9745-2FA68C6BD94C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedInventory.Tests", "DistributedInventory.Tests\DistributedInventory.Tests.csproj", "{3E0DCED8-1F48-4ACD-95CA-5CCE6D8C47D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedInventory.Application", "DistributedInventory.Application\DistributedInventory.Application.csproj", "{EED0C398-BE28-4B52-9D9D-D44F085B20C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedInventory.Infrastructure", "DistributedInventory.Infrastructure\DistributedInventory.Infrastructure.csproj", "{E36B4D84-7D25-4A5C-A741-5F014CFA6282}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedInventory.API", "DistributedInventory.API\DistributedInventory.API.csproj", "{6FE863B9-EF35-45BB-8585-A1DFD0E5CCAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C1B04C8-8AD4-4140-9745-2FA68C6BD94C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C1B04C8-8AD4-4140-9745-2FA68C6BD94C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C1B04C8-8AD4-4140-9745-2FA68C6BD94C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C1B04C8-8AD4-4140-9745-2FA68C6BD94C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E0DCED8-1F48-4ACD-95CA-5CCE6D8C47D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E0DCED8-1F48-4ACD-95CA-5CCE6D8C47D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E0DCED8-1F48-4ACD-95CA-5CCE6D8C47D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E0DCED8-1F48-4ACD-95CA-5CCE6D8C47D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EED0C398-BE28-4B52-9D9D-D44F085B20C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EED0C398-BE28-4B52-9D9D-D44F085B20C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EED0C398-BE28-4B52-9D9D-D44F085B20C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EED0C398-BE28-4B52-9D9D-D44F085B20C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E36B4D84-7D25-4A5C-A741-5F014CFA6282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E36B4D84-7D25-4A5C-A741-5F014CFA6282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E36B4D84-7D25-4A5C-A741-5F014CFA6282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E36B4D84-7D25-4A5C-A741-5F014CFA6282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FE863B9-EF35-45BB-8585-A1DFD0E5CCAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FE863B9-EF35-45BB-8585-A1DFD0E5CCAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FE863B9-EF35-45BB-8585-A1DFD0E5CCAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FE863B9-EF35-45BB-8585-A1DFD0E5CCAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EA1250E-F890-4D03-B67F-038407C68595}
+	EndGlobalSection
+EndGlobal
